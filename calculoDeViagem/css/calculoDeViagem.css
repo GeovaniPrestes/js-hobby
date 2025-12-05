@@ -1,0 +1,16 @@
+.mes{
+    text-align: center;
+    margin: auto;
+    width: 40vw;
+    font-size: 2rem;    
+}
+
+#s-0, #s-1, #s-2, #s-3, #s-4, #s-5{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0.5rem;
+    margin: 1rem auto;
+    padding: 6.25%;
+    width: 40vw;
+}
+
