@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senha Sigecom</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' fill='%234CAF50'>🔒</text></svg>">
+</head>
+<body>
+    <aside class="sidebar" id="sidebar">
+        <button id="toggleBtn" class="toggle-btn" aria-label="Alternar menu">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="brand">Senha Sigecom</div>
+        <ul class="sidebar-links">
+            <li>
+                <a href="#" data-tooltip="Início" aria-label="Início">
+                    <svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M3 11.5L12 4l9 7.5v7a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1v-7z" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    <span class="nav-text">Início</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" data-tooltip="Gerar Senha" aria-label="Gerar Senha">
+                    <svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 11c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3z" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    <span class="nav-text">Gerar Senha</span>
+                </a>
+            </li>
+            <li>
+                <a href="cadastrarFulano.html" data-tooltip="Sobre" aria-label="Sobre">
+                    <svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.2"/><path d="M12 8v4" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/><path d="M12 16h.01" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+                    <span class="nav-text">Cadastrar</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" data-tooltip="Contato" aria-label="Contato">
+                    <svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M4 4h16v12H5l-1 1V4z" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M22 18v1a2 2 0 0 1-2 2H4" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    <span class="nav-text">Contato</span>
+                </a>
+            </li>
+        </ul>
+    </aside>
+    <div id="sidebarOverlay" class="sidebar-overlay" aria-hidden="true"></div>
+
+    <main class="main-content">
+        <h1 id="senha">Welcome to My Website</h1>
+    </main>
+
+    <script src="js/sidebar.js"></script>
+    <script src="js/calculodeSenha.js"></script>
+</body>
+</html>
